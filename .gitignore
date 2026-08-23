@@ -1,0 +1,46 @@
+# Credentials & sessions (NEVER commit these)
+accounts.json
+accounts.local.json
+webview_urls.json
+initdata*.txt
+*.session
+*.session-journal
+sessions/
+.env*
+.tg_cred*
+
+# Runtime state & logs
+logs/
+*.log
+state/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Reverse-engineering artifacts & local probes (not part of the bot)
+probe_*.py
+analyze_*.py
+test_*.py
+login_*.py
+qr_login*.py
+step1_*.py
+step2_*.py
+fetch_initdata.py
+refresh_init.py
+urko_bot.py
+urko_daemon.py
+urko_live.py
+*.html
+*.js
+chunks.txt
+*.bak
+*.bak.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

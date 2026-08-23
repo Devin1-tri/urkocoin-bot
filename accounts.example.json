@@ -1,0 +1,20 @@
+{
+  "accounts": [
+    {
+      "name": "main",
+      "session": "sessions/main.session",
+      "phone": "+62812xxxxxxxx",
+      "api_id": 12345678,
+      "api_hash": "your_api_hash_here",
+      "enabled": true
+    },
+    {
+      "name": "alt1",
+      "session": "sessions/alt1.session",
+      "phone": "+62813xxxxxxxx",
+      "api_id": 12345678,
+      "api_hash": "your_api_hash_here",
+      "enabled": false
+    }
+  ]
+}
