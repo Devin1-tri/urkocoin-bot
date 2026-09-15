@@ -1,0 +1,1 @@
+- 2026-09-05: routine maintenance pass #11 — docs refresh, lint cleanup
